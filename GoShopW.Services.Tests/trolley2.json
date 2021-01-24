@@ -1,0 +1,170 @@
+{
+  "Products": [
+    {
+      "Name": "Product 0",
+      "Price": 14.7411549485946,
+      "Quantity": 0.0
+    },
+    {
+      "Name": "Product 1",
+      "Price": 8.05095470885325,
+      "Quantity": 0.0
+    },
+    {
+      "Name": "Product 2",
+      "Price": 7.93191739261705,
+      "Quantity": 0.0
+    },
+    {
+      "Name": "Product 3",
+      "Price": 8.06948615381005,
+      "Quantity": 0.0
+    }
+  ],
+  "Specials": [
+    {
+      "Quantities": [
+        {
+          "Name": "Product 0",
+          "Quantity": 1
+        },
+        {
+          "Name": "Product 1",
+          "Quantity": 6
+        },
+        {
+          "Name": "Product 2",
+          "Quantity": 5
+        },
+        {
+          "Name": "Product 3",
+          "Quantity": 1
+        }
+      ],
+      "Total": 2.43358904960913
+    },
+    {
+      "Quantities": [
+        {
+          "Name": "Product 0",
+          "Quantity": 6
+        },
+        {
+          "Name": "Product 1",
+          "Quantity": 7
+        },
+        {
+          "Name": "Product 2",
+          "Quantity": 1
+        },
+        {
+          "Name": "Product 3",
+          "Quantity": 5
+        }
+      ],
+      "Total": 31.6369481423512
+    },
+    {
+      "Quantities": [
+        {
+          "Name": "Product 0",
+          "Quantity": 9
+        },
+        {
+          "Name": "Product 1",
+          "Quantity": 7
+        },
+        {
+          "Name": "Product 2",
+          "Quantity": 9
+        },
+        {
+          "Name": "Product 3",
+          "Quantity": 9
+        }
+      ],
+      "Total": 33.1048385515
+    },
+    {
+      "Quantities": [
+        {
+          "Name": "Product 0",
+          "Quantity": 2
+        },
+        {
+          "Name": "Product 1",
+          "Quantity": 5
+        },
+        {
+          "Name": "Product 2",
+          "Quantity": 1
+        },
+        {
+          "Name": "Product 3",
+          "Quantity": 3
+        }
+      ],
+      "Total": 23.4928558732965
+    },
+    {
+      "Quantities": [
+        {
+          "Name": "Product 0",
+          "Quantity": 2
+        },
+        {
+          "Name": "Product 1",
+          "Quantity": 7
+        },
+        {
+          "Name": "Product 2",
+          "Quantity": 1
+        },
+        {
+          "Name": "Product 3",
+          "Quantity": 6
+        }
+      ],
+      "Total": 38.3002168238888
+    },
+    {
+      "Quantities": [
+        {
+          "Name": "Product 0",
+          "Quantity": 1
+        },
+        {
+          "Name": "Product 1",
+          "Quantity": 4
+        },
+        {
+          "Name": "Product 2",
+          "Quantity": 7
+        },
+        {
+          "Name": "Product 3",
+          "Quantity": 6
+        }
+      ],
+      "Total": 7.43369683019342
+    }
+  ],
+  "Quantities": [
+    {
+      "Name": "Product 0",
+      "Quantity": 1
+    },
+    {
+      "Name": "Product 1",
+      "Quantity": 9
+    },
+    {
+      "Name": "Product 2",
+      "Quantity": 8
+    },
+    {
+      "Name": "Product 3",
+      "Quantity": 4
+    }
+  ]
+}

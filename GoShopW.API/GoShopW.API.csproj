@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UserSecretsId>d21eece5-c4b7-4241-8f81-69051b82b32b</UserSecretsId>
+
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\GoShopW.Contracts\GoShopW.Contracts.csproj" />
+		<ProjectReference Include="..\GoShopW.Model\GoShopW.Models.csproj" />
+		<ProjectReference Include="..\GoShopW.Services\GoShopW.Services.csproj" />
+	</ItemGroup>
+</Project>
