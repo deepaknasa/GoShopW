@@ -7,8 +7,10 @@ using System.Text;
 
 namespace GoShopW.Services
 {
+    /// <inheritdoc cref="ITrolleyTotalCalculator"/>
     public class TrolleyTotalCalculator : ITrolleyTotalCalculator
     {
+        /// <inheritdoc cref="ITrolleyTotalCalculator.GetTrolleyTotal(Trolley)"/>
         public decimal GetTrolleyTotal(Trolley trolley)
         {
             var productsWithPriceAndQuanities = trolley.Products.Join(

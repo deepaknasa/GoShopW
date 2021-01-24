@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace GoShopW.Services
 {
+    /// <inheritdoc cref="ITrolleyService"/>
     public class TrolleyService : ITrolleyService
     {
         private readonly ILogger<TrolleyService> _logger;
@@ -29,6 +30,7 @@ namespace GoShopW.Services
 
         public string HttpCients { get; }
 
+        /// <inheritdoc cref="ITrolleyService.GetTrolleyTotal(Trolley)"/>
         public async Task<decimal> GetTrolleyTotal(Trolley trolley)
         {
             var trolleyTotal = 0.0m;
@@ -52,6 +54,7 @@ namespace GoShopW.Services
             }
         }
 
+        /// <inheritdoc cref="ITrolleyService.GetTrolleyTotalWithCalculatorService(Trolley)"/>
         public async Task<decimal> GetTrolleyTotalWithCalculatorService(Trolley trolley)
         {
             // Note: No need to make it async. However to keep it consistent it above method which makes call to external endpoint

@@ -10,6 +10,9 @@ using System.Threading.Tasks;
 
 namespace GoShopW.Configuration
 {
+    /// <summary>
+    /// Extension class to add UserInfoOptions into the app DI container which can be accessed by services.
+    /// </summary>
     public static class OptionsConfiguration
     {
         public static IServiceCollection AddConfigurationOptions(this IServiceCollection services, IConfiguration Configuration)

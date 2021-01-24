@@ -26,13 +26,20 @@ namespace GoShopW
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            // register API services. It also defines service scopes.
             services.AddServices();
+
+            // register application configuration options which are read from app-settings.
             services.AddConfigurationOptions(this.Configuration);
+
+            // register named httpclients via client factory.
             services.AddHttpClients(this.Configuration);
+
+            // regiter swagger
             services.AddSwaggerGen();
         }
 

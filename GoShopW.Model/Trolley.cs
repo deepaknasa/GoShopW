@@ -4,6 +4,9 @@ using System.Text;
 
 namespace GoShopW.Models
 {
+    /// <summary>
+    /// Class represent Trolley data.
+    /// </summary>
     public class Trolley
     {
         public List<Product> Products { get; set; }

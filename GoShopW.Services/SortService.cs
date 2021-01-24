@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace GoShopW.Services
 {
+    /// <inheritdoc cref="ISortService"/>
     public class SortService : ISortService
     {
         private readonly ILogger<SortService> _logger;
@@ -24,6 +25,7 @@ namespace GoShopW.Services
             _logger = logger;
         }
 
+        /// <inheritdoc cref="ISortService.GetSortedProducts(SortOption)"/>
         public async Task<List<Product>> GetSortedProducts(SortOption sortOption)
         {
             var randomOrderProducts = await this.GetUnSortedProducts();
@@ -31,6 +33,7 @@ namespace GoShopW.Services
             return await this.SortProductsBy(randomOrderProducts, sortOption);
         }
 
+        /// <inheritdoc cref="ISortService.SortProductsBy(IEnumerable{Product}, SortOption)"/>
         public async Task<List<Product>> SortProductsBy(IEnumerable<Product> products, SortOption sortOption)
         {
             switch (sortOption)

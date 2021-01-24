@@ -4,6 +4,9 @@ using System.Text;
 
 namespace GoShopW.Services
 {
+    /// <summary>
+    /// Class having constant strings used for named httpclients.
+    /// </summary>
     public class HttpClients
     {
         public const string ProductsClient = "ProductClient";

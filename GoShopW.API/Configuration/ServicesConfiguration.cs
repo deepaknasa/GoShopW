@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace GoShopW.Configuration
 {
+    /// <summary>
+    /// Extension class to add services along with required scopes.
+    /// </summary>
     public static class ServicesConfiguration
     {
         public static IServiceCollection AddServices(this IServiceCollection services)
